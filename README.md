@@ -14,6 +14,32 @@ Recommendations include pre- and post-accident strategies such as infrastructure
 ## Conclusion
 The proactive approach to workplace safety aligns with Aramco's commitment to ensuring safer operations. The analysis acknowledges limitations due to limited public data and an imbalanced dataset but suggests future improvements with more detailed data from Aramco.
 
+## Datasets
+
+### 1. Oil Pipeline Accidents (2010-Present)
+- **Source:** [Kaggle](https://www.kaggle.com/usdot/pipeline-accidents)
+- **Location:** `database.csv`
+- **Description:** 
+  - Contains records of oil pipeline leaks or spills reported to the Pipeline and Hazardous Materials Safety Administration from 2010 onwards.
+- **Use Case:** 
+  - Analyzed to understand the primary causes of pipeline leaks and spills.
+
+## How to Run the Project
+
+1. Execute the R-script `Team1S03.R` alongside the `database.csv` file.
+2. Adhere to the code and accompanying comments throughout the analysis for guidance.
+
+## Technologies & Libraries
+
+- **Programming Language:** R
+- **Libraries:**
+  - **Data Manipulation:** `dplyr`, `tidyr`, `tidyverse`, `data.table`, `datawizard`
+  - **Data Visualization:** `ggplot2`, `corrplot`
+  - **Model Building & Evaluation:**  `caTools`, `rpart`, `rpart.plot`, `car`, `caret`, `ehaGoF`
+  - **Date-Time Data Handling:** `lubridate`
+  - **Scaling and Transformation Tools:** `scales`
+  - **Machine Learning and Statistics:** `caTools`, `Metrics`, `caret`
+
 ## Analytical and Predictive Techniques Utilised
 1. Logistic Regression: To predict fatalities and injuries
 2. Classification And Regression Tree (CART): To predict fatalities, injuries and the percentile of total costs incurred
